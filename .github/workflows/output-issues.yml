@@ -1,0 +1,10 @@
+name: Listen on Issue
+on:
+  issues:
+    types: [opened, edited, milestoned]
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event context
+        run: echo ${{toJson(github)}}
