@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+.github/workflows/demo1.yml
+.github/workflows/deployment.yml
+.github/workflows/output-issues.yml
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
